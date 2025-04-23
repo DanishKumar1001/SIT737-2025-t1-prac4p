@@ -1,7 +1,7 @@
 # SIT737-2025-t1-prac4p
 Node.js microservice built with Express for basic calculator operations (add, subtract, multiply, divide). Supports RESTful API endpoints with input validation and error handling. Created for SIT737 Cloud Native App Dev – Task 4.1P (T1 2025).
 
-#Steps to Run Microservice:
+# Steps to Run Microservice:
 
 1. Clone the Repository
 
@@ -20,7 +20,7 @@ node app.js
 
 The service will run on http://localhost:3000.
 
-#Available Endpoints
+# Available Endpoints
 
 1. Addition
 
@@ -40,7 +40,7 @@ GET /multiply?num1=10&num2=5
 GET /divide?num1=10&num2=5
 Returns error if num2 == 0.
 
-#Error Handling
+# Error Handling
 
 Missing Parameters: Returns 400 Bad Request
 Invalid Numbers: Returns 400 Bad Request
