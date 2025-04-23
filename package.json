@@ -1,0 +1,23 @@
+{
+  "name": "sit737-2025-t1-prac4p",
+  "version": "1.0.0",
+  "description": "Node.js microservice built with Express for basic calculator operations (add, subtract, multiply, divide). Supports RESTful API endpoints with input validation and error handling. Created for SIT737 Cloud Native App Dev – Task 4.1P (T1 2025).",
+  "main": "calculator.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanishKumar1001/SIT737-2025-t1-prac4p.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanishKumar1001/SIT737-2025-t1-prac4p/issues"
+  },
+  "homepage": "https://github.com/DanishKumar1001/SIT737-2025-t1-prac4p#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
