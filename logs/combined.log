@@ -1,0 +1,37 @@
+{"level":"info","message":"Calculator microservice running on http://localhost:3000","service":"calculator-microservice"}
+{"level":"info","message":"Incoming Request: GET / from IP ::1","service":"calculator-microservice"}
+{"level":"warn","message":"Invalid endpoint accessed: GET /","service":"calculator-microservice"}
+{"level":"info","message":"Incoming Request: GET /add?num1=23&num2=100 from IP ::1","service":"calculator-microservice"}
+{"level":"info","message":"Addition: 23 + 100 = 123","service":"calculator-microservice"}
+{"level":"info","message":"Calculator microservice running on http://localhost:3000","service":"calculator-microservice"}
+{"level":"info","message":"Incoming Request: GET /add?num1=23&num2=100 from IP ::1","service":"calculator-microservice"}
+{"level":"info","message":"Addition: 23 + 100 = 123","service":"calculator-microservice"}
+{"level":"info","message":"Incoming Request: GET /subtract?num1=23&num2=100 from IP ::1","service":"calculator-microservice"}
+{"level":"info","message":"Subtraction: 23 - 100 = -77","service":"calculator-microservice"}
+{"level":"info","message":"Calculator microservice running on http://localhost:3000","service":"calculator-microservice"}
+{"level":"info","message":"Incoming Request: GET /subtract?num1=23&num2=100 from IP ::1","service":"calculator-microservice"}
+{"level":"error","message":"Subtraction error: num1 (23) is less than num2 (100)","service":"calculator-microservice"}
+{"level":"info","message":"Incoming Request: GET /subtract?num1=100&num2=23 from IP ::1","service":"calculator-microservice"}
+{"level":"info","message":"Subtraction: 100 - 23 = 77","service":"calculator-microservice"}
+{"level":"info","message":"Incoming Request: GET /multiplication?num1=100&num2=23 from IP ::1","service":"calculator-microservice"}
+{"level":"warn","message":"Invalid endpoint accessed: GET /multiplication?num1=100&num2=23","service":"calculator-microservice"}
+{"level":"info","message":"Calculator microservice running on http://localhost:3000","service":"calculator-microservice"}
+{"level":"info","message":"Incoming Request: GET /multiply?num1=100&num2=23 from IP ::1","service":"calculator-microservice"}
+{"level":"info","message":"Multiplication: 100 * 23 = 2300","service":"calculator-microservice"}
+{"level":"info","message":"Calculator microservice running on http://localhost:3000","service":"calculator-microservice"}
+{"level":"info","message":"Incoming Request: GET /divide?num1=100&num2=23 from IP ::1","service":"calculator-microservice"}
+{"level":"info","message":"Division: 100 / 23 = 4.3478260869565215","service":"calculator-microservice"}
+{"level":"info","message":"Calculator microservice running on http://localhost:3000","service":"calculator-microservice"}
+{"level":"info","message":"Incoming Request: GET /divide?num1=100&num2=0 from IP ::1","service":"calculator-microservice"}
+{"level":"error","message":"Attempted division by zero","service":"calculator-microservice"}
+{"level":"info","message":"Calculator microservice running on http://localhost:3000","service":"calculator-microservice"}
+{"level":"info","message":"Incoming Request: GET /subtract?num1=23&num2=100 from IP ::1","service":"calculator-microservice"}
+{"level":"error","message":"Subtraction error: num1 (23) is less than num2 (100)","service":"calculator-microservice"}
+{"level":"info","message":"Incoming Request: GET /subtract?num1=23&num2=100 from IP ::1","service":"calculator-microservice"}
+{"level":"error","message":"Subtraction error: num1 (23) is less than num2 (100)","service":"calculator-microservice"}
+{"level":"info","message":"Calculator microservice running on http://localhost:3000","service":"calculator-microservice"}
+{"level":"info","message":"Incoming Request: GET /subtract?num1=23&num2 from IP ::1","service":"calculator-microservice"}
+{"level":"error","message":"Invalid number format","num1":"23","num2":"","service":"calculator-microservice"}
+{"level":"info","message":"Calculator microservice running on http://localhost:3000","service":"calculator-microservice"}
+{"level":"info","message":"Incoming Request: GET /subtract?num1=23 from IP ::1","service":"calculator-microservice"}
+{"level":"error","message":"Missing query parameters","num1":"23","service":"calculator-microservice"}

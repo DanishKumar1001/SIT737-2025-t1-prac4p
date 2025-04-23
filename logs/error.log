@@ -1,0 +1,6 @@
+{"level":"error","message":"Subtraction error: num1 (23) is less than num2 (100)","service":"calculator-microservice"}
+{"level":"error","message":"Attempted division by zero","service":"calculator-microservice"}
+{"level":"error","message":"Subtraction error: num1 (23) is less than num2 (100)","service":"calculator-microservice"}
+{"level":"error","message":"Subtraction error: num1 (23) is less than num2 (100)","service":"calculator-microservice"}
+{"level":"error","message":"Invalid number format","num1":"23","num2":"","service":"calculator-microservice"}
+{"level":"error","message":"Missing query parameters","num1":"23","service":"calculator-microservice"}
